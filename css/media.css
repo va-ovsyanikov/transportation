@@ -1,0 +1,127 @@
+/*==========  Desktop First Method  ==========*/
+/* Large Devices, Wide Screens */
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+    .hide_mobile {
+        display: none;
+    }
+    .header_content h2{
+       font-size: 25px;
+         margin-bottom: 15px;
+    }
+    .header_content li{
+        font-size: 28px;
+    }
+    .header_param span{
+        font-size: 33px;
+    }
+    .header_content li{
+        font-size: 28px;
+    }
+    .header_param span{
+        font-size: 33px;
+    }
+    section h2{
+        font-size: 30px;
+    }
+    h1 {
+        margin-top: 0;
+        font-size: 25px;
+    }
+    .header_content {
+        text-align: center;
+    }
+    .header_content img {
+        width: 40%;
+        height: auto;
+        min-width: 220px;
+        margin-top: 35px;
+    }
+    .header_content .header_call_btn {
+        display: block;
+        margin: 20px auto;
+    }
+    .header_phone span:before {
+        top: 3px;
+    }
+    .header {
+        background-color: #fff;
+    }
+    .services h3 {
+        margin-bottom: 20px;
+    }
+    .header_param{
+        margin-top: 15px;
+    }
+    .services_item {
+        margin-bottom: 30px;
+    }
+    .footer .show_mobile {
+        display: block;
+    }
+    .footer {
+        text-align: center;
+    }
+    .footer .header_schedule_work {
+        float: none;
+        display: inline-block;
+        width: 97%;
+    }
+    .footer_phone{
+        text-align: center;
+    }
+    .adress{
+        text-align: center;
+    }
+
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+
+    .slider .owl-next {
+        display: none;
+    }
+    .slider .owl-prev {
+        display: none;
+    }
+       .header_descrip{
+           margin-top: 30px;
+        margin-bottom: 40px;
+    }
+
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 560px) {
+    .header_content{
+        justify-content: flex-end;
+    }
+}
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 360px) {
+    .logo {
+        margin-top: 15px;
+    }
+    .logo img {
+        width: 100px;
+    }
+    .header_phone {
+        font-size: 20px;
+    }
+    .header_phone span:before {
+        top: 2px;
+    }
+    .main_style {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .header_top_line {
+        min-height: 67px;
+    }
+}
+/*==========  Mobile First Method  ==========*/
+/* Custom, iPhone Retina */
+/* Extra Small Devices, Phones */
+/* Small Devices, Tablets */
+/* Medium Devices, Desktops */
+/* Large Devices, Wide Screens */
